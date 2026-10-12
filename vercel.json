@@ -1,0 +1,19 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/api/snapshot",
+      "destination": "https://almasor-outage-monitoring.vercel.app/api/snapshot"
+    },
+    {
+      "source": "/api/source-health",
+      "destination": "https://almasor-outage-monitoring.vercel.app/api/source-health"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

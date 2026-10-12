@@ -1,0 +1,6 @@
+{
+  "name": "Almasor NOC Outage Monitoring & Data Doctor Agent",
+  "description": "Professional telecom outage dashboard with high-speed auto refresh, exact formula analysis, self-healing data doctor agent, and accurate NAP Down tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
