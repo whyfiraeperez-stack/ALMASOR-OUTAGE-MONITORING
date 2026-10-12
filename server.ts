@@ -168,7 +168,7 @@ app.post('/api/agent/ai-audit', async (req, res) => {
   }
 
   try {
-    const ai = new GoogleGenAI({});
+    const ai = new GoogleGenAI({ apiKey });
     const prompt = `You are the Senior Network Operations Center (NOC) Engineering Lead for Almasor Telecom (Bicol Region: Albay, Camarines Sur, Camarines Norte, Sorsogon, Masbate).
 Analyze the current live outage telemetry:
 - Total Active NAP Down (FINAL STATUS = PENDING): ${pendingCount}
